@@ -1,6 +1,6 @@
 import unittest
-from Module_12_1.module_12_1 import RunnerTest
-from Module_12_2.Module_12_2 import TournamentTest
+from module_12_1 import RunnerTest
+from Module_12_2 import TournamentTest
 
 RaT_TS = unittest.TestSuite()
 RaT_TS.addTest(unittest.TestLoader().loadTestsFromTestCase(RunnerTest))
